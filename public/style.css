@@ -23,6 +23,10 @@ h1 {
     font-size: 5em;
 }
 
+h2 {
+    font-size: 4em;
+}
+
 h3 {
     font-size: 2em;
     margin-top: 20px;
@@ -39,4 +43,28 @@ h3 {
     font-size: 4em;
     padding: 10px;
     margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    font-size: 2em;
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    border: 2px solid var(--font-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.tenteNovamente {
+    color: var(--bg-color);
+    background-color: var(--font-color);
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.btn-jogar:hover {
+    color: var(--bg-color);
+    background-color: var(--font-color);
 }
