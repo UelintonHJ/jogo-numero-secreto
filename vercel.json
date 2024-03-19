@@ -7,7 +7,7 @@
     "rewrites": [
         {
             "source": "/(.*)",
-            "function": "api/server"
+            "destination": "api/server"
         }
     ]
 }
