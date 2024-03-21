@@ -15,19 +15,19 @@
     },
     "rewrites": [
         {
-            "src": "/api/server.js(.*)",
+            "source": "/api/server.js(.*)",
             "destination": "/api/server.js"
         },
         {
-            "src": "/public/app/reconhecimentoDeVoz.js(.*)",
+            "source": "/public/app/reconhecimentoDeVoz.js(.*)",
             "destination": "/public/app/reconhecimentoDeVoz.js"
         },
         {
-            "src": "/public/app/sortearNumero.js(.*)",
+            "source": "/public/app/sortearNumero.js(.*)",
             "destination": "/public/app/sortearNumero.js"
         },
         {
-            "src": "/public/app/validacao.js(.*)",
+            "source": "/public/app/validacao.js(.*)",
             "destination": "/public/app/validacao.js"
         }
     ]
