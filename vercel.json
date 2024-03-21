@@ -1,13 +1,34 @@
 {
     "functions": {
-        "api/**/*.js": {
-            "runtime": "nodejs14.x"
+        "api/server.js": {
+            "runtime": "nodejs18.x"
+        },
+        "public/app/reconhecimentoDeVoz.js": {
+            "runtime": "nodejs18.x"
+        },
+        "public/app/sortearNumero.js": {
+            "runtime": "nodejs18.x"
+        },
+        "public/app/validacao.js": {
+            "runtime": "nodejs18.x"
         }
     },
     "rewrites": [
         {
-            "source": "/(.*)",
-            "function": "api/server"
+            "src": "/api/server.js(.*)",
+            "destination": "/api/server.js"
+        },
+        {
+            "src": "/public/app/reconhecimentoDeVoz.js(.*)",
+            "destination": "/public/app/reconhecimentoDeVoz.js"
+        },
+        {
+            "src": "/public/app/sortearNumero.js(.*)",
+            "destination": "/public/app/sortearNumero.js"
+        },
+        {
+            "src": "/public/app/validacao.js(.*)",
+            "destination": "/public/app/validacao.js"
         }
     ]
 }
