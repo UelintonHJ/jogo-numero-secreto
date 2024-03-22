@@ -19,16 +19,8 @@
             "destination": "/api/server.js"
         },
         {
-            "source": "/public/app/(.*)",
-            "destination": "/public/app/reconhecimentoDeVoz.js"
-        },
-        {
-            "source": "/public/app/(.*)",
-            "destination": "/public/app/sortearNumero.js"
-        },
-        {
-            "source": "/public/app/(.*)",
-            "destination": "/public/app/validacao.js"
+            "source": "/(.*)",
+            "destination": "/public/$1"
         }
     ]
 }
