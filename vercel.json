@@ -1,18 +1,4 @@
 {
-    "functions": {
-        "api/server.js": {
-            "runtime": "nodejs18.x"
-        },
-        "public/app/reconhecimentoDeVoz.js": {
-            "runtime": "nodejs18.x"
-        },
-        "public/app/sortearNumero.js": {
-            "runtime": "nodejs18.x"
-        },
-        "public/app/validacao.js": {
-            "runtime": "nodejs18.x"
-        }
-    },
     "rewrites": [
         {
             "source": "/api/(.*)",
