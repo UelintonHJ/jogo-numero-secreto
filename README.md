@@ -37,6 +37,39 @@ A cada tentativa, a máquina indica se o número secreto é maior ou menor até 
 
 ---
 
+## ⚡ Funcionalidades
+
+- Chute números por voz usando o microfone
+- Receba dicas: número secreto é maior ou menor
+- Validação de entrada (0 a 1000)
+- Tela de vitória com opção de jogar novamente
+
+---
+
+## 💡 Como executar localmente
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/UelintonHJ/jogo-numero-secreto
+```
+
+2. Instale as dependências:
+```bash
+npm install
+```
+
+3. Rode o servidor:
+```bash
+node api/server.js
+```
+
+4. Abra o navegador e acesse:
+```bash
+http://localhost:3000
+```
+
+---
+
 ## 📚 Licença 
 
 > **Número Secreto** é um jogo web interativo que combina reconhecimento de voz e lógica de adivinhação. 
