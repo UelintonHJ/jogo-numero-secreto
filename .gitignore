@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Certificados locais
+*.pem
+
+# Sistema
+Thumbs.db
+desktop.ini
+
+# IDE configs
+.vscode/
+.idea/
