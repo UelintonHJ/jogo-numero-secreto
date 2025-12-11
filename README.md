@@ -1,24 +1,18 @@
-# 🎮 [Número Secreto](https://jogo-numero-secreto-yr3h.vercel.app/)
-
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![Vercel](https://img.shields.io/badge/Deploy-Vercel-blue)](https://vercel.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+# 🔢 [Número Secreto - Jogo por Reconhecimento de Voz](https://jogo-numero-secreto-yr3h.vercel.app/)
 
 ---
 
-## 🔹 Sobre o projeto
+## 🧠 Sobre o projeto
 
-Número Secreto é um jogo interativo **acionado pela sua voz**, desenvolvido como projeto acadêmico durante o curso da Alura.  
-O objetivo é adivinhar o número que a máquina escolheu (entre 0 e 1000).
-A cada tentativa, a máquina indica se o número secreto é maior ou menor até você acertar.
+O **Número Secreto** é um jogo web interativo que utiliza **reconhecimento de voz** para adivinhar o número escolhido pela máquina (entre **0 e 1000**).
+A cada tentativa, o jogo informa se o número secreto é **maior** ou **menor**, até o acertar.
 
-- Aprendi a utilizar a **API de reconhecimento de voz** do navegador.
-- Desenvolvido com **JavaScript, HTML e CSS**
-- Deploy online feito na **Vercel**.
+Projeto desenvolvido durante curso da **Alura**, com foco em:
+
+- 🎤 Uso da **Web Speech API**
+- 🧩 Lógica JavaScript aplicada
+- 🌐 Integração simples com **Node.js + Express**
+- 🚀 Deploy com **Vercel**
 
 ---
 
@@ -30,47 +24,50 @@ A cada tentativa, a máquina indica se o número secreto é maior ou menor até 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js + Express
-- **Deploy**: Vercel
-- **API**: Web Speech API (Reconhecimento de voz)
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Node.js**
+- **Express**
+- **Web Speech API**
+- **Vercel**
 
 ---
 
 ## ⚡ Funcionalidades
 
-- Chute números por voz usando o microfone
-- Receba dicas: número secreto é maior ou menor
-- Validação de entrada (0 a 1000)
-- Tela de vitória com opção de jogar novamente
+- 🎙️ Chute números por voz usando o microfone
+- 🔼 Dicas indicando se o número secreto é maior ou menor
+- ✔️ Validação automática entre **0 e 1000**
+- 🏆 Tela de vitória com botão para reiniciar
+- 📱 Totalmente responsivo
 
 ---
 
-## 💡 Como executar localmente
+## 💻 Como executar localmente
 
-1. Clone o repositório:
-```bash
+```
+# Clone o repositório:
 git clone https://github.com/UelintonHJ/jogo-numero-secreto
-```
 
-2. Instale as dependências:
-```bash
+# Entre na pasta do projeto
+cd jogo-numero-secreto
+
+# Instale as dependências:
 npm install
-```
 
-3. Rode o servidor:
-```bash
+# Inicie o servidor:
 node api/server.js
 ```
 
-4. Abra o navegador e acesse:
-```bash
+Abra no navegador:
+```
 http://localhost:3000
 ```
 
 ---
 
-## 📚 Licença 
+## 📜 Licença 
 
-> **Número Secreto** é um jogo web interativo que combina reconhecimento de voz e lógica de adivinhação. 
-> Desenvolvido na [Alura](https://www.alura.com.br/).
+Projeto desenvolvido para fins educacionais durante os estudos na **Alura**.
+Licenciado sob **MIT**.
